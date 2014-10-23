@@ -1,4 +1,4 @@
-#Function for returning list of features that user wants to use in his plotting
+#Function for returning list of features that user wants to use in his plottin
 feature_list <- function(...) {
       input_list <- list(...)
       return(input_list)
