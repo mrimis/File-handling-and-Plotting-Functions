@@ -13,7 +13,7 @@ return(mat)
 feature_list <- function(...) {
       input_list <- list(...)
       return(input_list)
-  }
+ }
   
 
 #Function for extracting  features of single feature data matrix
