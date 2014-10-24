@@ -1,4 +1,4 @@
-##Function for Correlation square matrix generation
+####Function for Correlation square matrix generation
 cor_mat <- function (X, dfr = nrow(X) - 2) {
 mat<- cor(X, use="pairwise.complete.obs")
 above <- row(mat) < col(mat)
